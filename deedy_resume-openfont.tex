@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Galen}{Wang}{ \urlstyle{same}\href{https://github.com/galenhwang}{Github} |  \href{https://www.linkedin.com/in/galenwang}{LinkedIn} | \href{https://devpost.com/GalenWang}{Devpost}\\
+604-441-4718 | \href{mailto:galenhwang@yahoo.ca}{galenhwang@yahoo.ca}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.3\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University of British}
+\subsection{Columbia}
+\descript{BS, Combined Major in Business and Computer Science, Co-op}
+\location{May 2020 | Vancouver, BC}
+{\bf Honour: }Dean's Honour List, \\ Chancellor's Scholar \\
+{\bf Cum. GPA: }3.9 / 4.33 \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills} 
+\subsection{Languages:}
+Javascript \textbullet{} Python \textbullet{} Java \textbullet{} C/C++ \\
+Swift \textbullet{} SQL \textbullet{} Rails \\
+\vspace{2mm}
+\subsection{Frameworks /}
+\subsection{Libraries:}
+\vspace{1mm}
+\location{Web}
+React.js \textbullet{} AngularJS \textbullet{} Node.js \\
+Express \textbullet{} jQuery \textbullet{} Socket.io \\
+Electron \textbullet{} Bootstrap \\
+\vspace{1mm}
+\location{Python}
+Django \textbullet{} NumPy \textbullet{} SciPy \textbullet{} Pandas \\
+Scikit-learn \textbullet{} Matplotlib \textbullet{} TensorFlow \\
+\vspace{2mm}
+\subsection{Other:}
+Git \textbullet{} MongoDB \textbullet{} PostgreSQL \textbullet{} AWS \\
+Heroku \textbullet{} Google Cloud \textbullet{} Microsoft Azure \textbullet{} 
+R \textbullet{} \LaTeX\ \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Undergraduate}
+Computer Hardware and OS \\
+Computer Networking \\
+Human-Computer Interaction \\
+Intermediate Algorithm Design \\
+\hspace{2mm}and Analysis \\
+Internet Computing \\
+Relational Databases \\
+Software Engineering \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{ll}
+2018 & 1\textsuperscript{st} Place – UBC Local Hack Day\\
+2018 & Deloitte ThinkTech Finalist\\
+2018 & Best Public Hack - HackDavis \\
+2017 & TELUS Excellence in IT Award \\
+2017 & 1\textsuperscript{st} Place – ProtoHack \\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{EazyTeX}
+\descript{| Full Stack Software Developer Intern }
+\location{Dec 2018 – Present | Vancouver, BC}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Build a real-time interpreted WYSIWYG desktop application for LaTeX using React, Electron, Node, and Bootstrap
+\item Improved loading and rendering by 5x by implementing performance fixes, including smart autosaving and endless scrolling
+\item Building an Express server that integrates with PostgreSQL and AWS (S3 and Lightsail) for users to load and modify documents stored in the cloud.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{UBC}
+\descript{| Undergraduate Teaching Assistant }
+\location{Sep 2018 – Present | Vancouver, BC}
+\begin{tightemize}
+\item Developed course materials used for Differential Calculus (2018W1), and Logistics and Operations Management (2018W2)
+\item Facilitate student learning during office hours and grade corresponding assignemnts, quizes, and exams
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Roblox}
+\descript{| Product Manager Intern, Mobile Apps }
+\location{Jan 2018 – Apr 2018 | San Francisco Bay Area, CA}
+\begin{tightemize}
+\item Met 83\% of 2018 Q1 product roadmap goals, shipping several features including swipe navigation, batch requests, and a new recommendation system
+\item Improved app load time and crash rates, leading the mobile app to be ranked with a 4.5+ average rating and in the Top 10 Grossing Apps on Google Play 
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Projects}
+\href{https://devpost.com/software/emoci}{\runsubsection{EmoCI}}\\
+\location{Dec 2018 | React.js, Python}
+\textit{A web app that uses NLP and tone recognition to emotionally classify a movie scene.} \\ Each scene is rendered with emojis and a sentiment score reflecting the scene's mood. Built the backend with Python, leveraging third-party APIs along with use of a convolutional neural network.
+\sectionsep 
+
+\href{https://devpost.com/software/growthdriver}{\runsubsection{GrowthDriver}}\\
+\location{Mar 2018 – Apr 2018 | Python, Swift}
+\textit{A game that calculates a player's preference for risk to construct a stock portfolio.} \\ Built the backend with Python with the NumPy and Pandas libraries for thw mean variance optimization algorithm, and IEX and BlackRock APIs for market data.
+\sectionsep 
+
+\href{https://devpost.com/software/medvault}{\runsubsection{MedVault}}\\
+\location{Mar 2018 | React.js, Rails}
+\textit{A mobile app that allows first responders to  retrieve patient data during emergencies.} \\ Built the frontend with React Native with Redux for storing changes to a user's health history dynamically and dispatching information to our backend in Rails.
+\sectionsep
+
+\href{https://devpost.com/software/my6footprint}{\runsubsection{my6footprint}}\\
+\location{Jan 2018 | Python, Swift, Rails, Google Cloud}
+\textit{A mobile app that helps users track and optimize their carbon emissions.}\\ Built the frontend with Swift, creating visualizations of users' stats. Built the backend with Python, with Pandas, Scikit-learn, and Matploblib libraries used for the carbon allowance algorithm and linear regression model; Google Cloud (GCE and Storage).
+\sectionsep 
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     PUBLICATIONS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Publications} 
+% \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
